@@ -8,7 +8,6 @@
 header{
     display: flex;
     height: 100px;
-    width: 100%;
     background-color: #dd5a5a;
     align-items: center;
 }
@@ -30,7 +29,7 @@ header{
 }
 
 .traco{
-    width: 1200px;
+    width: 80vw;
     margin: auto;
 }
 
@@ -62,30 +61,28 @@ p{
     margin-top: 20px;
 }
 
-.imagens{
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 20px;
-    height: 300px;
+.ponte{
+    display: flex;
+    margin: 20px auto;
+    height: 40vh;
+    background-color: aqua;
 }
 
-.ponte{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    width: 1200px;
-    height: 400px;
+.imagens{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #img1{
-    margin: 20px 0;
+    background-image: url(../imagens/imagem01.jpeg);
+    
 }
 
 #img2{
-    margin: 20px 0;
+    background-image: url(../imagens/imagem02.jpeg);
 }
 
 #ben10{
@@ -94,8 +91,7 @@ p{
 }
 
 .topicos-fora{
-    margin: 20px auto;
-    width: 1200px;
+    margin: 20px 10px;
 }
 
 .container1 .topicos{
@@ -146,7 +142,8 @@ footer{
 }
 
 footer > p{
-    width: 800px;
+    font-size: 10px;
+    width: 80vw;
     margin: auto;
     padding: 10px 0;
 }
@@ -156,7 +153,7 @@ span{
 }
 
 #hellokitty{
-    width: 2%;
+    max-width: 50px;
 }
 
 
